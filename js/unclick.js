@@ -216,5 +216,5 @@ document.ondragstart = function() { return false;}
 var e = document.getElementsByTagName('body')[0];
 if(e)
 {
-	e.setAttribute('unselectable');
+	//e.setAttribute('unselectable', on);
 }
